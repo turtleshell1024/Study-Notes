@@ -1,4 +1,4 @@
-以下是deepseek生成的一篇关于 **tidyverse** 的使用笔记，内容涵盖核心包的基本操作和常用技巧，适合快速上手和日常参考。
+以下是deepseek生成的一篇关于 **tidyverse** 的使用笔记，内容涵盖核心包的基本操作和常用技巧，适合快速上手和日常参考。平时遇到什么新的用法了再补充上去。
 
 ---
 
@@ -56,7 +56,13 @@ library(tidyverse)            # 加载核心包（dplyr, ggplot2, tidyr等）
   ```r
   left_join(table1, table2, by = "id")
   ```
+  
+- `separate()`: 分割列  
+  ```r
+  df <- df %>%
+  separate(col, into = c("left_part", "right_part"), sep = ":")
 
+  ```
 ---
 
 ## 3. 数据整理（tidyr）
