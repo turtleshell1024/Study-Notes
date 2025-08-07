@@ -128,6 +128,13 @@ ok       0.63 Text::Format
 ok     1.9725 Time::HiRes
 ```
 
+## 配置.bashrc
+```
+export PATH=/mnt/data1/project/project_lisiyu/software/circos/circos-0.69-9/bin:$PATH
+export PATH=/home/lisiyu/perl5/bin:$PATH
+export PERL5LIB=/home/lisiyu/perl5/lib/perl5:$PERL5LIB
+```
+
 ## 软件测试
 
 ```bash
